@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordleCheat", "WordleCheat\WordleCheat.csproj", "{3C897957-3C23-4C3E-BF4C-99903EFBA681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordleCheat.test", "WordleCheat.test\WordleCheat.test.csproj", "{DEC9DF4F-FFE4-401E-8FC9-22D92330B166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordleCheat.interfaces", "WordleCheat.interfaces\WordleCheat.interfaces.csproj", "{883551FE-5C10-4C55-B0A6-EB4731B6E01F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{774B21B8-8E28-4EE3-9ADC-134602950D75}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordleCheat.exceptions", "WordleCheat.exceptions\WordleCheat.exceptions.csproj", "{63E3369F-A2A6-4E2D-9744-ECC9E424ADD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordleCheat.rules", "WordleCheat.rules\WordleCheat.rules.csproj", "{0D2B0961-7DDE-4509-AC0A-0E2F71C6EF66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C897957-3C23-4C3E-BF4C-99903EFBA681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C897957-3C23-4C3E-BF4C-99903EFBA681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C897957-3C23-4C3E-BF4C-99903EFBA681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C897957-3C23-4C3E-BF4C-99903EFBA681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEC9DF4F-FFE4-401E-8FC9-22D92330B166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC9DF4F-FFE4-401E-8FC9-22D92330B166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC9DF4F-FFE4-401E-8FC9-22D92330B166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC9DF4F-FFE4-401E-8FC9-22D92330B166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{883551FE-5C10-4C55-B0A6-EB4731B6E01F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{883551FE-5C10-4C55-B0A6-EB4731B6E01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{883551FE-5C10-4C55-B0A6-EB4731B6E01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{883551FE-5C10-4C55-B0A6-EB4731B6E01F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63E3369F-A2A6-4E2D-9744-ECC9E424ADD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63E3369F-A2A6-4E2D-9744-ECC9E424ADD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63E3369F-A2A6-4E2D-9744-ECC9E424ADD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63E3369F-A2A6-4E2D-9744-ECC9E424ADD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D2B0961-7DDE-4509-AC0A-0E2F71C6EF66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2B0961-7DDE-4509-AC0A-0E2F71C6EF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2B0961-7DDE-4509-AC0A-0E2F71C6EF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2B0961-7DDE-4509-AC0A-0E2F71C6EF66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6F9F47B-A364-42AE-8AB8-8E805B75961C}
+	EndGlobalSection
+EndGlobal

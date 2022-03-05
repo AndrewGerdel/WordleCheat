@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WordleCheat.interfaces\WordleCheat.interfaces.csproj" />
+    <ProjectReference Include="..\WordleCheat.exceptions\WordleCheat.exceptions.csproj" />
+    <ProjectReference Include="..\WordleCheat.rules\WordleCheat.rules.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="LetterValueProviders\" />
+    <None Remove="Autofac" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="LetterValueProviders\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Dictionary.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
