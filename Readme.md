@@ -77,6 +77,6 @@ All rule objects implement _IRuleObject_ and exposes a single public function: _
 There are other many other exceptions, interfaces and unit tests that should be self-explainatory.
 
 ## Future
-I may or may not port this game over to octordle.  That game is absolute madness, with four puzzels going all at once.  
+I may or may not port this game over to quordle.  That game is absolute madness, with four puzzels going all at once.  
 
 I hope you use this app to cheat like crazy and impress your friends.  Keep this app a secret and flaunt your awesomeness. 
